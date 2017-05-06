@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <biconObject ssid="hackatheon-dol">
+        <name>Name1</name>
+        <description>Example1</description>
+        <img>image1</img>
+        <audio>audio1</audio>
+    </biconObject>
+    <biconObject ssid="hackatheon-gora">
+        <name>Name2</name>
+        <description>Example2</description>
+        <img>image2</img>
+        <audio>audio2</audio>
+    </biconObject>
+</resources>
