@@ -20,11 +20,19 @@ public class DominoCane extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_domino_cane);
 
-        Button b = (Button)findViewById(R.id.button);
+        Button b = (Button)findViewById(R.id.button1);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 reaction();
+                Button informacje_szczegolowe = (Button) findViewById(R.id.button);
+
+                informacje_szczegolowe.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        startActivity(new Intent(DominoCane.this, Pop.class));
+                    }
+                });
             }
         });
     }
