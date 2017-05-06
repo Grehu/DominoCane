@@ -1,0 +1,16 @@
+<OBJECTSTORE>
+    <OBJECT>
+        <SSID>hackatheon-dol</SSID>
+        <NAME>Name1</NAME>
+        <DESCRIPTON>Example1</DESCRIPTON>
+        <IMAGE>image1.png</IMAGE>
+        <AUDIO>audio1.wav</AUDIO>
+    </OBJECT>
+    <OBJECT>
+        <SSID>hackatheon-gora</SSID>
+        <NAME>Name2</NAME>
+        <DESCRIPTON>Example2</DESCRIPTON>
+        <IMAGE>image2.png</IMAGE>
+        <AUDIO>audio2.wav</AUDIO>
+    </OBJECT>
+</OBJECTSTORE>
