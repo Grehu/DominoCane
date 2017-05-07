@@ -6,20 +6,23 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".DominoCane">
+        android:theme="@style/AppThemeNoBar"
+        android:supportsRtl="true">
+        <activity android:name=".DominoCane"
+                  android:screenOrientation="portrait">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            android:screenOrientation="portrait"
         </activity>
-        <activity android:name=".ScrollActivity"></activity>
+        <activity android:name=".ScrollActivity" />
+        <activity
+            android:name=".Pop"
+            android:theme="@style/AppTheme.CustomTheme" />
 
-        <activity android:name="Pop"
-            android:theme="@style/AppTheme.CustomTheme"
-            ></activity>
     </application>
 
 </manifest>

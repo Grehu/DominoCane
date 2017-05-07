@@ -11,6 +11,15 @@
     <style name="AppTheme.CustomTheme">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
+
+    </style>
+
+    <style name="AppThemeNoBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--<item name="android:windowNoTitle">true</item>-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 
 </resources>
